@@ -1,0 +1,44 @@
+FROM ubuntu:20.04
+RUN aptget update && aptget install y \
+  nmap-nping \
+  scapy \
+  socat \
+  strace \
+  tcpdump \
+  tcptraceroute \
+  tshark \
+  websocat \
+  bc \
+  bpfcctools \
+  bpftrace \
+  bzip2 \
+  cifsutils \
+  curl \
+  dhcping \
+  dos2unix \
+  expect \
+  git \
+  iftop \
+  jq \
+  linuxheaders \
+  linuxheaders-5.4.0-66-generic \
+  lsof \
+  lsscsi \
+  lvm2 \
+  mtr \
+  mutt \
+  nano \
+  netcat  \
+  nettools \
+  nmap \
+  pciutils \
+  psmisc \
+  screen \
+  sysdig \
+  sysstat \
+  telnet \
+  time \
+  tree \
+  unzip \
+  wget \
+  zip
