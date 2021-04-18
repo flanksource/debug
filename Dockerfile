@@ -1,5 +1,5 @@
 FROM ubuntu:20.04
-RUN aptget update && aptget install y \
+RUN apt-get update && apt-get install -y \
   nmap-nping \
   scapy \
   socat \
