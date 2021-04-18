@@ -1,6 +1,5 @@
 FROM ubuntu:20.04
 RUN apt-get update && apt-get install -y \
-  nmap-nping \
   scapy \
   socat \
   strace \
@@ -9,10 +8,9 @@ RUN apt-get update && apt-get install -y \
   tshark \
   websocat \
   bc \
-  bpfcctools \
+  bpfcc-tools \
   bpftrace \
   bzip2 \
-  cifsutils \
   curl \
   dhcping \
   dos2unix \
@@ -20,8 +18,8 @@ RUN apt-get update && apt-get install -y \
   git \
   iftop \
   jq \
-  linuxheaders \
-  linuxheaders-5.4.0-66-generic \
+  linux-headers \
+  linux-headers-5.4.0-66-generic \
   lsof \
   lsscsi \
   lvm2 \
@@ -29,7 +27,7 @@ RUN apt-get update && apt-get install -y \
   mutt \
   nano \
   netcat  \
-  nettools \
+  net-tools \
   nmap \
   pciutils \
   psmisc \
