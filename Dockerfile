@@ -17,7 +17,6 @@ RUN apt-get update && apt-get install -y \
   git \
   iftop \
   jq \
-  linux-headers \
   linux-headers-5.4.0-66-generic \
   lsof \
   lsscsi \
