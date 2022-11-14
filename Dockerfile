@@ -79,5 +79,6 @@ RUN install_bin https://gitlab.com/gitlab-com/support/toolbox/strace-parser/uplo
 RUN install_bin https://github.com/restic/restic/releases/download/v${RESTIC_VERSION}/restic_${RESTIC_VERSION}_linux_amd64.bz2
 RUN install_bin https://github.com/mikefarah/yq/releases/download/v4.9.3/yq_linux_amd64.tar.gz
 RUN install_bin https://github.com/vi/websocat/releases/download/v1.8.0/websocat_amd64-linux-static
+RUN install_bin https://github.com/fullstorydev/grpcurl/releases/download/v1.8.7/grpcurl_1.8.7_linux_x86_64.tar.gz
 ARG SOPS_VERSION=3.5.0
 RUN install_deb https://github.com/mozilla/sops/releases/download/v${SOPS_VERSION}/sops_${SOPS_VERSION}_amd64.deb
